@@ -4,11 +4,11 @@ h6 {
 
 /* colors */
 .green {
-    color: #8dc63f;
+    color: #8dc63f !important;
 }
 
 .white {
-    color: white;
+    color: white !important;
 }
 
 .gray {
@@ -17,6 +17,14 @@ h6 {
 /* end colors */
 
 /* oocss */
+.bold {
+    font-family: Lato-Bold;
+}
+
+.bree-serif {
+    font-family: Bree-Serif;
+}
+
 .center {
     text-align: center;
 }
@@ -28,6 +36,21 @@ h6 {
 
 .line {
     border-top: 1px solid #8dc63f;
+}
+
+.sub-header {
+    font-size: 60px !important;
+}
+
+.h2 {
+    margin-top: 0px !important;
+    font-size: 48px !important;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /* end oocss */
 
@@ -42,7 +65,6 @@ h6 {
 }
 
 .stuff {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -62,6 +84,14 @@ h6 {
 .socks-container {
     padding-bottom: 50px;
 }
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #333;
+}
 /* end sections */
 
 /* buttons */
@@ -69,7 +99,7 @@ div.subscribe {
     text-align: center;
 }
 
-button.subscribe {
+button.custom {
     height: 50px;
     color: #fff;
     background-color: #faa14d;
@@ -78,10 +108,21 @@ button.subscribe {
     font-size: 1.1em;
 }
 
-button.subscribe:hover {
+button.custom:hover {
     background-color: #e98917;
     border-bottom: 2px solid #faa14d;
 }
+
+.login {
+    border: 1px solid #8dc63f !important;
+    color: #8dc63f !important;
+}
+
+.login:hover {
+    background-color: #8dc63f !important;
+    color: white !important;
+}
+
 /* end buttons */
 
 /* nav lists */
@@ -89,7 +130,7 @@ ul {
     list-style: none;
 }
 
-li {
+li.li-button {
     color: #8dc63f;
     padding: 10px 15px;
     border: 1px solid #8dc63f;
@@ -113,10 +154,14 @@ ul.nav-buttons {
 
 li.nav-button {
     padding: 10px 30px;
-    font-weight: 600;
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #8dc63f;
 }
 /* end nav lists */
 
